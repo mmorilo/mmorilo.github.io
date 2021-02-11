@@ -1,0 +1,68 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color:#7C5E99;
+    border-bottom: 10px solid #000;
+    padding: 10px 20px;
+
+}
+
+nav {
+    text-align: right;
+}
+
+a {
+    display: inline-flex;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+    font-family: "Fira Code",Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 30px ;
+
+}
+
+a::before {
+    content: "";
+    display: inline-block;
+    background-color: #EA6074 ;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+    vertical-align: middle;
+
+}
+
+a:hover {
+    color: #000;
+    transition: 0.3s;
+
+}
+h1 {
+    display:inline-block;
+    background-color:#3A4042;
+    padding: 42px 27px 40px 40px;
+    box-shadow: 10px 10px 0px #000000;
+    font-family: "Press Start 2P";
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: 116px;
+    margin-left: 91px;
+
+    
+
+}
+    #Button {
+    display: inline-block;
+    background-color: #EA6074;
+    padding: 18px 20px;
+    box-shadow: 5px 5px 0px #000000;
+    margin-right: 0px;
+
+}
+#Button:hover {
+    background-color: #f34c4c;
+    color: #000;
+    transition: 0.1s;   
+}
