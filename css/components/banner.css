@@ -1,0 +1,21 @@
+.banner {
+    background-image: url(../../assets/img/banner.png);
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-bottom: 10px solid #000;
+    
+}
+
+.banner .warpper {
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner .navigation {
+    display: flex;
+    justify-content: center;
+    
+
+}
