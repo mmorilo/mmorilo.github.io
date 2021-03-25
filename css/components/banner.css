@@ -1,21 +1,28 @@
 .banner {
     background-image: url(../../assets/img/banner.png);
-    height: 700px;
+    height: 748px; 
+    box-sizing: border-box;
     background-repeat: no-repeat;
     background-size: 100%;
-    border-bottom: 10px solid #000;
-    
+    border-bottom: 10px ;
+    border-bottom: 10px #000 solid;
+    padding-top: 115px;
+    padding-left: 50px;
 }
 
-.banner .warpper {
-    display: block;
+.banner .wrapper {
+    display: flex;
     flex-direction: column;
-    justify-content: center;
+    width: 640px;
+
+}
+
+.banner .box {
+    margin-bottom: 40px;
+
 }
 
 .banner .navigation {
     display: flex;
-    justify-content: center;
-    
-
+    justify-content: space-evenly;
 }
